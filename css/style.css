@@ -1,0 +1,150 @@
+@charset "uft-8";
+*{
+    margin: o;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0;
+    color: #fff;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-div{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left-div > h1{
+    font-size: 2vw;
+    text-transform: uppercase;
+    font-weight: 500;
+    color:#407BFF;
+}
+.right-div{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+.card{
+width: 60%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 30px 35px;
+background: #fdfdfd;
+border-radius: 15px;
+box-shadow: 0px 10px 40px #00000056;
+
+}
+.card-login{
+    margin: 0;
+    text-transform: uppercase;
+    color: #407BFF;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.text{
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.text > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 14pt;
+    background: #dbd3ee;
+    outline: none;
+    box-sizing: border-box;
+}
+.text > label{
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #407BFF;
+
+}
+.text > input::placeholder{
+    color: rgb(31, 28, 28);
+}
+
+button{
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    background:#407BFF;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing:3px;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #403BFF;
+    transition:0.3s ease-in-out;
+}
+button:hover{
+    transform: translateY(-10px);
+}
+img{
+    width: 70%;
+}
+
+#cad{
+    color: #407BFF;
+    
+}
+
+@media (max-width: 950px){
+    .card{
+        width: 85%;
+    }
+    .left-div{
+        display: none;
+       }
+}
+@media (max-width: 500px){
+    .container{
+        display:block;
+        flex-direction: column;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+    .left-div > h1{
+        display: none;
+    }
+    .left-div{
+     display: none;
+    }
+    .right-div{
+        width: 90%;
+        height: auto;
+        margin: auto;
+    }
+    .card{
+        margin-top: 100px;
+    }
+    img{
+        width: 50%;
+    }
+}
