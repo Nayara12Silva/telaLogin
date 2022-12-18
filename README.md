@@ -1,5 +1,7 @@
 # Tela De Login
 
+A tela de login permite que o usuário acesse um determinado sistema, inserindo o email e senha adquiridos através de um cadastro feito pelo usuário ou um administrador. 
+
 ![tela de login 1](https://user-images.githubusercontent.com/104741196/208268253-54a302c6-9033-4938-be86-9b6352cba745.PNG)
 
 clique [Aqui](https://nayara12silva.github.io/telaLogin/) para visualizar a página!
@@ -16,6 +18,10 @@ possui uma interface simples e também esta responsivo.
 [![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
 )]()
 
-## Implementações futuras
+### Finalização 
 
-Esse projeto é um trabalho em andamento, futuramente irei implementar conexão com uma database e validação do form action.
+Essa é uma tela simples onde apliquei meus conhecementos nas tecnologias citadas a cima para desenvolver.
+pretendo fazer novas implementações nesse mini projeto, como criar um sistema de cadastro e validações usando ferramentas como o node.js e react, que são tecnologias que pretendo estudar assim que finalizar os estudos de html e css.
+
+
+
